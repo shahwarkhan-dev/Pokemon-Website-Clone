@@ -1,0 +1,769 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+.nav1 {
+    background-color: #e8e8e8;
+    width: 100%;    
+    box-shadow: 0 0 5px ;
+    
+}
+
+.nav1 ul{
+    list-style: none;
+    text-align: center;
+    
+}
+
+
+.nav1 ul li{
+    display: inline-block;
+    padding: 8px 7px;
+}
+
+.nav1 ul li:hover {
+    transform: translateY(-10px);
+}
+
+.logopokemon{
+    background-color: white;
+    box-shadow: 0 0 7px 1px #666666; 
+    height: auto;  
+    width: 105px;
+    position: relative;
+    top: -3px;
+}
+
+.logo-pokemoncenter{
+    border-right: solid 3px #dedede;
+    width: 100px;
+}
+
+.about-us{
+    border-right: solid 3px #dedede;
+    width: 100px;
+}
+
+.nav2{
+    background-color: white;
+    width: 100%;
+    height: 100px; 
+    padding: 1px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav2 ul {
+    list-style: none;
+    text-align: center;
+    background-color: white;
+}
+
+.nav2 ul li a {
+    text-decoration: none;
+}
+
+.nav2 ul li {
+    display: inline-block;
+    padding: 11px 28px;
+    position: relative;
+    bottom: 14px;
+    height: 90px;
+    padding-bottom: 15px;
+    margin: 0px 1px;
+}
+
+.home {
+    border-bottom: 5px solid  #919191;
+    position: relative;
+    top: -9px;
+}
+
+.home:hover{
+    background-color: #919191;
+}
+
+.nav2 ul li p:hover {
+    color: #fff;
+}
+
+.home a {
+    text-decoration: none;
+}
+
+.home img {
+    width: 70px;
+}
+
+.home p {
+    color:#919191;
+}
+
+.Pokedex{
+    border-bottom: 5px solid #E3350D;
+    position: relative;
+    bottom: -3px;
+}
+
+.Pokedex:hover {
+    background-color: #E3350D;
+}
+
+.Pokedex img {
+    width:50px;   
+}
+
+.Pokedex p {
+    color: gray;
+}
+
+.plus{
+    position: relative;
+    top: -2px;
+    /* bottom: 1px; */
+    border-bottom: 5px solid #EE6B2F;   
+}
+
+.plus:hover {
+    background-color: #EE6B2F;
+}
+
+
+.text a p{
+    color: gray;
+}
+
+.text a img {
+    width: 80px;
+}
+
+.card {
+    border-bottom: 5px solid #E6BC2F;
+    position: relative;
+    top: -15px;
+}
+
+.card:hover{
+    background-color: #E6BC2F;
+}
+
+.pokemontv {
+    border-bottom: 5px solid #4DAD5B;
+    position: relative;
+    top: -9px;
+}
+
+.pokemontv:hover {
+    background-color: #4DAD5B;
+}
+
+.events{
+    border-bottom: 5px solid #30A7D7;
+    position: relative;
+    top: -11px;
+}
+
+.events:hover {
+    background-color:#30A7D7 ;
+}
+
+.news {
+    border-bottom: 5px solid #1B53BA;
+    top: -16px;
+}
+
+.news:hover{
+    border-bottom-right-radius: 5px;
+    background-color: #1B53BA;
+}
+
+.body-bg {
+    background-image: url(./images/body_bg.png);
+    height: 1000px;
+  
+}
+
+.body-bg1 {
+    background-image: url(./images/body_bg.png);
+    height: 1000px; 
+}
+
+.bg2{
+    background: #fff url(./images/container_bg.png);
+    margin: 0 auto;
+    max-width: 1280px;
+    height: 850px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg3{
+    display: flex;
+    flex-wrap:wrap;
+    background: #fff url(./images/container_bg.png);
+    margin: 0 auto;
+    max-width: 1280px;
+    height: 1000px;
+}
+
+
+.card1{
+    width: 39%;
+    border: 2px solid white;
+    border-radius: 7px;
+    position: relative;
+    left: 200px;
+    
+}
+
+.card1 h3 {
+    color: white;
+    font-family: "Flexo-Medium",arial,sans-serif;
+    line-height: 125%;
+    font-size: 137.5;
+}
+
+.card1 p {
+    font-family: "Roboto",arial,sans-serif;
+    font-size: 100%;
+    font-weight: 500;
+    line-height: 125%;
+    /* margin-left: 1.25em; */
+}
+
+
+
+.card1 img {
+    width: 100%;
+    height: 400px;
+}
+
+.card1 {
+    background-color: #C7AA79;
+    height: 500px;
+    /* width: 100%; */
+    /* padding: 0 10px; */
+}
+
+.card1{
+    padding: 0 5px;
+}
+
+.bg2{
+    display: flex;
+    flex-wrap: wrap;
+    /* cursor: pointer; */
+}
+
+.card2{
+    display: flex;
+    position: relative;
+    left: 220px;
+}
+
+.card1:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card2:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+
+.card3:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card4:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card5:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card6:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card7:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card8:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card9:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card10:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card11:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card12:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card13:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card2img img{
+   width:150px ;
+    height: 180px;
+}
+
+.card2-2{
+    border: 2px solid white;
+    border-radius: 7px;
+    width: 174px;
+    height:120px ;
+    padding: 30px 40px;
+    color: white;
+    background-color:#1B53BA ;
+    font-size: 137.5%;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Medium",arial,sans-serif;
+}
+
+.card3{
+    border: 2px solid white;
+    border-radius: 7px;
+    position: relative;
+    bottom: 310px;
+    left: 735px;
+    background-color: #4dad5b;
+    width: 410px;
+    height: 290px;
+}
+
+.card3img img{
+    width:410px ;
+    height: 180px;
+}
+
+.card3 h3 {
+    font-size: 137.5%;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Medium",arial,sans-serif;
+    color: white;
+    padding: 10px 20px;
+}
+
+.card4 {
+    position: relative;
+    bottom: 80px;
+    background-color: #855ac9;
+    width: 20%;
+    height: 280px;
+    border: 2px solid white;
+    border-radius: 7px;
+    position: relative;
+    right: 210px;
+    top: 10px;
+    /* left: 200px; */
+}
+
+.card4 img {
+    width: 100%;
+}
+
+.card4 h3{
+    color: white;
+    padding: 20px 10px;
+    width: 100%;
+    font-size: 137.5%;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Medium",arial,sans-serif;
+}
+
+.card5 {
+    position: relative;
+    top: 10px;
+    right: 200px;
+    background-color: #4dad5b;
+    width: 19%;
+    height: 280px;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+.card5 img {
+    width: 100%;
+}
+
+.card5 h3{
+    color: white;
+    padding: 20px 6px;
+    width: 100%;
+    font-size: 137.5%;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Medium",arial,sans-serif;
+}
+
+
+.card6 {
+    background-color: #a4a4a4;
+    position: relative;
+    bottom: 300px;
+    left: 735px;
+    width: 32%;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+.card6 img {
+    width: 100%;
+}
+
+.card6 h3{
+    color: white;
+    padding: 5px 20px;
+    width: 100%;
+    font-size: 137.5%;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Medium",arial,sans-serif;
+}
+
+.slider img{
+    /* width: 100%; */
+    cursor: pointer;
+    /* position: relative;
+    bottom: 183px;  */
+}
+
+.footer{
+    background-color: #1f1f1f;
+    width: 100%;
+
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 2rem;
+}
+
+.vertical {
+    width: 2px;
+    height: 200px;
+    background: #000;
+}
+
+.footer-list ul {
+    list-style: none;
+}
+
+.footer ul li {
+    color: #616161;
+    font-family: "Roboto",arial,sans-serif;
+    font-size: 87.5%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height:1.5;
+    text-transform: none;
+    vertical-align: middle;
+}
+
+.footer li:hover{
+    cursor: pointer;
+}
+
+.footer-last ul {
+    position: relative;
+    top: 30px;
+    display: inline-block;
+    list-style: none;
+}
+
+.footer-last p {
+    position: relative;
+    top: 40px;
+}
+
+.footer-last a,p {
+    color: #525252;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.socialicons ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.socialicons ul li i{
+    font-size: 30px;
+}
+
+
+.button {
+    position: relative;
+    bottom: 700px;
+    left: 33px;
+    /* position: fixed; */
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.card7 {
+    background-color: #e6bc2f;
+    width: 300px;
+    height: 350px;
+    border: 1px solid #e6bc2f;
+    border-radius: 10px;
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
+
+.card7 img {
+    width: 100%;
+}
+
+.card7 h3,p {
+    width: 100%;
+    /* padding: px 10px; */
+}
+
+.card7 h3 {
+    color: white;
+    padding: 20px 10px;
+    font-size: 137.5%;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Medium",arial,sans-serif;
+}
+
+.card7 p {
+    font-family: "Roboto",arial,sans-serif;
+    font-size: 100%;
+    font-weight: 500;
+    line-height: 125%;
+    margin-left: 1.25em;
+}
+
+.card8 {
+    background-color: #ee6b2f;
+    width: 300px;
+    height: 350px;
+    border: 1px solid #ee6b2f;
+    border-radius: 10px;
+    position: relative;
+    left: 180px;
+    /* top: 10px; */
+}
+
+.card8 img,h3,p {
+    width: 100%;
+}
+
+.card8 h3 {
+    color: white;
+    padding: 30px 30px;
+    font-size: 137.5%;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Medium",arial,sans-serif;
+}
+
+.card9 {
+    background-color: #855ac9;
+    width: 300px;
+    height: 380px;
+    border: 1px solid #855ac9;
+    border-radius: 10px;
+    position: relative;
+    left: 210px;
+    top: 80px;
+}
+
+.card9 img {
+    width: 100%;
+}
+
+.card9 h3,p {
+    width: 100%;
+    /* padding: px 10px; */
+}
+
+.card9 h3 {
+    color: white;
+    padding: 20px 10px;
+    font-size: 137.5%;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Medium",arial,sans-serif;
+}
+
+.card9 p {
+    font-family: "Roboto",arial,sans-serif;
+    font-size: 85%;
+    font-weight: 500;
+    line-height: 125%;
+    margin-left: 1.25em;
+}
+
+.card10 {
+    background-color: #30a7d7;
+    width: 300px;
+    height: 350px;
+    border: 1px solid #30a7d7;
+    border-radius: 10px;
+    position: relative;
+    right: 760px;
+    top: 480px;
+}
+
+.card10 img {
+    width: 100%;
+}
+
+.card10 h3,p {
+    width: 100%;
+    /* padding: px 10px; */
+}
+
+.card10 h3 {
+    color: white;
+    padding: 20px 10px;
+    font-size: 137.5%;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Medium",arial,sans-serif;
+}
+
+.card10 p {
+    font-family: "Roboto",arial,sans-serif;
+    font-size: 88%;
+    font-weight: 500;
+    line-height: 125%;
+    /* margin-left: 1.25em; */
+}
+
+.h2 {
+    color: #919191;
+    cursor: default;
+    font-size: 184.5%;
+    padding: 10px 20px;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Regular",arial,sans-serif;
+    position: relative;
+    left: 470px;
+    bottom: 99px;
+}
+
+.card11 {
+    background-color: #675945;
+    width: 300px;
+    height: 390px;
+    border: 1px solid #675945;
+    border-radius: 10px;
+    position: relative;
+    left: 210px;
+    top: 20px;
+}
+
+.card11 img {
+    width: 100%;
+}
+
+.card11 h3,p {
+    width: 100%;
+    /* padding: px 10px; */
+}
+
+.card11 h3 {
+    color: white;
+    padding: 20px 10px;
+    font-size: 137.5%;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Medium",arial,sans-serif;
+}
+
+.card11 p {
+    font-family: "Roboto",arial,sans-serif;
+    font-size: 88%;
+    font-weight: 500;
+    line-height: 125%;
+    color: black;
+    }
+
+    .card12 {
+        background-color: #a4a4a4;
+        width: 300px;
+        height: 380px;
+        border: 1px solid #a4a4a4;
+        border-radius: 10px;
+        position: relative;
+        left: 243px;
+        bottom: 10px;
+    }
+    
+    .card12 img {
+        width: 100%;
+    }
+    
+    .card12 h3,p {
+        width: 100%;
+        /* padding: px 10px; */
+    }
+    
+    .card12 h3 {
+        color: white;
+        padding: 20px 10px;
+        font-size: 137.5%;
+        line-height: 125%;
+        text-transform: none;
+        font-family: "Flexo-Medium",arial,sans-serif;
+    }
+    
+    .card12 p {
+        font-family: "Roboto",arial,sans-serif;
+        font-size: 88%;
+        font-weight: 500;
+        line-height: 125%;
+        padding: 0 10px;
+    }
+
+    .card13 {
+        position: relative;
+        top: 380px;
+        right: 58px;
+    }
